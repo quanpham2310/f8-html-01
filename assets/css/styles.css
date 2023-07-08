@@ -161,10 +161,22 @@ a {
 }
 
 .clients .images {
-  margin-top: 96px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.clients .images a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 42px;
+}
+
+.clients .images a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
 /* Guides */

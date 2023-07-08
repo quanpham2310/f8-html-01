@@ -62,7 +62,7 @@ a {
   background: #e6f0ff;
   display: flex;
   flex-direction: column;
-  height: 736px;
+  height: calc(100vh - 90px);
   position: relative;
 }
 
